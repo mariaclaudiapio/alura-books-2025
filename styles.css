@@ -1,0 +1,36 @@
+/* reset */
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* variáveis */
+:root
+{
+    --primary-background: #c4c4c4;
+    --secondary-background: #ffffff;
+    --gradient-color: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --title-color: #002F52;
+    --text-color: #000000;
+    --accent-color: #eb9b00;
+    --font-family: "Poppins", sans-serif;
+}
+
+body 
+{
+    font-family: var(--font-family);
+    
+}
+
+h2
+{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
