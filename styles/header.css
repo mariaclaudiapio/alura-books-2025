@@ -1,0 +1,29 @@
+.menu__left-burguer
+{
+    width: 24px;
+    height: 24px;
+    background-image: url("../images/Menu.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.menu
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;    
+}
+
+.menu__left
+{
+    display: flex;
+    align-items: center;
+}
+
+.icon
+{
+    padding: 1em;
+}
+   
