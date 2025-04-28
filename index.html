@@ -9,10 +9,32 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
-<body>    
+<body>
+    <!-- Itens de Navegação (Nav Itens) -->    
     <header class="menu">
         <div class="menu__left">
-            <span class="menu__left-burguer icon"></span>
+            <input type="checkbox" id="menu" class="menu__left-checkbox">
+            <label for="menu">
+                <span class="menu__left-burguer icon"></span>
+            </label>
+            <ul class="menu__left-list">
+                <li class="menu__left-list-title">Categorias</li>
+                <li class="menu__left-list-item">
+                    <a class="menu__left-list-link" href="#">Programação</a>
+                </li>
+                <li class="menu__left-list-item">
+                    <a class="menu__left-list-link" href="#">Front-end</a>
+                </li>
+                <li class="menu__left-list-item">
+                    <a class="menu__left-list-link" href="#">Infraestrutura</a>
+                </li>
+                <li class="menu__left-list-item">
+                    <a class="menu__left-list-link" href="#">Business</a>
+                </li>
+                <li class="menu__left-list-item">
+                    <a class="menu__left-list-link" href="#">Design & UX</a>
+                </li>
+            </ul>
             <img class="menu__left-logo icon" src="./images/Logo.svg" alt="Logo da Alura Books">
         </div>
         <div class="menu__right">
