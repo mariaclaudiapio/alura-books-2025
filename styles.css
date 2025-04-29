@@ -1,5 +1,6 @@
 @import url("styles/header.css");
 @import url("styles/banner.css");
+@import url("styles/carousel.css");
 
 /* reset */
 *
@@ -29,12 +30,5 @@ body
     
 }
 
-h2
-{
-    background: var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
 
 

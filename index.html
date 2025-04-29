@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Books</title>
+    <!-- Importação do plugin do Carrossel -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <!-- Itens de Navegação (Nav Itens) -->    
     <header class="menu">
         <div class="menu__left">
@@ -43,12 +46,53 @@
             <a class="menu__right-profile icon" href="#"><img src="images/Usuario.svg" alt="Meu Perfil"></a>
         </div>
     </header>
+
     <!-- Banner -->
     <section class="banner">        
        <h1 class="banner__title">Já sabe por onde começar?</h1>
         <p class="banner__text">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         <input class="banner__search" type="search" placeholder="Qual será sua próxima leitura?">
     </section>
+
+    <!-- Carrossel (carousel)-->
+    <section class="carousel">
+        <h2 class="carousel__title">Novos lançamentos</h2>
+        <!-- Layout HTML do Swiper (Swiper HTML Layout)-->
+         <!-- Slider main container -->
+        <div class="swiper">
+             <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="./images/ApacheKafka.svg" alt="Livro sobre Apache Kafka e Spring Boot da Alura books"></div>
+            <div class="swiper-slide"><img src="./images/Liderança.svg" alt="Livro sobre Liderança e Design da Alura Books"></div>
+            <div class="swiper-slide"><img src="./images/Javascript.svg" alt="Livro sobre JavaScript assertivo da Alura Books"></div>
+            <div class="swiper-slide"><img src="./images/Guia Front-end.svg" alt="Guia Front-end da Alura Books"></div>
+            <div class="swiper-slide"><img src="./images/Portugol.svg" alt="Livro sobre Portugol da Alura Books"></div>
+            <div class="swiper-slide"><img src="./images/Acessibilidade.svg" alt="Livro sobre Acessibilidade da Alura Books"></div>
+        </div> 
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>        
+    </section>
+
     <footer></footer>
+    
+    <!-- Script do Carrossel (Carousel Script)-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', 
+        {
+            speed: 400,
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination:
+            {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            }
+        });
+    </script>
 </body>
 </html>
