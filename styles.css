@@ -1,4 +1,5 @@
 @import url("styles/header.css");
+@import url("styles/banner.css");
 
 /* reset */
 *
@@ -23,6 +24,7 @@
 
 body 
 {
+    background-color: var(--primary-background);
     font-family: var(--font-family);
     
 }

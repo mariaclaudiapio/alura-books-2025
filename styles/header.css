@@ -24,6 +24,11 @@
     align-items: center;
 }
 
+.menu__left-checkbox
+{
+    display: none;
+}
+
 .icon
 {
     padding: 1em;
