@@ -56,7 +56,7 @@
 
     <!-- Carrossel (carousel)-->
     <section class="carousel">
-        <h2 class="carousel__title">Novos lançamentos</h2>
+        <h2 class="carousel__title">Últimos lançamentos</h2>
         <!-- Layout HTML do Swiper (Swiper HTML Layout)-->
          <!-- Slider main container -->
         <div class="swiper">
@@ -74,7 +74,24 @@
         </div> 
         <!-- If we need navigation buttons -->
         <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>        
+        <div class="swiper-button-next"></div>
+
+        <!-- Cartão de Recomendação (Recommendation Card)-->
+        <div class="card">
+            <div class="card__text">
+                <h3 class="card__text-subtitle">Talvez você também se interesse por...</h3>
+                <h2 class="card__text-title">Angular 11 e Firebase</h2>
+                <p class="card__text-text">Construindo uma aplicação integrada com a plataforma do Google</p>
+                <div class="card__text-icons">
+                    <a href="#"><img src="./images/Favoritos.svg" alt="Favoritar livro"></a>
+                    <a href="#"><img src="./images/Compras.svg" alt="Comprar livro"></a>
+                </div>
+            </div>
+            <div class="card__image">
+                <img src="./images/Angular.svg" alt="Ícone do framework Angular">
+                <a class="card__image-link" href="#">Saiba mais</a>
+            </div>
+        </div>        
     </section>
 
     <footer></footer>
