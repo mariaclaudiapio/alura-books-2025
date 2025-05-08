@@ -54,10 +54,10 @@
         <input class="banner__search" type="search" placeholder="Qual será sua próxima leitura?">
     </section>
 
-    <!-- Carrossel (carousel)-->
+    <!-- Carrossel (carousel) -->
     <section class="carousel">
         <h2 class="carousel__title">Últimos lançamentos</h2>
-        <!-- Layout HTML do Swiper (Swiper HTML Layout)-->
+        <!-- Layout HTML do Swiper (Swiper HTML Layout) -->
          <!-- Slider main container -->
         <div class="swiper">
              <!-- If we need pagination -->
@@ -76,7 +76,7 @@
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
 
-        <!-- Cartão de Recomendação (Recommendation Card)-->
+        <!-- Cartão de Recomendação (Recommendation Card) -->
         <div class="card">
             <div class="card__text">
                 <h3 class="card__text-subtitle">Talvez você também se interesse por...</h3>
@@ -89,7 +89,7 @@
             </div>
             <div class="card__image">
                 <img src="./images/Angular.svg" alt="Ícone do framework Angular">
-                <a class="card__image-link" href="#">Saiba mais</a>
+                <a class="button" href="#">Saiba mais</a>
             </div>
         </div>        
     </section>
@@ -97,7 +97,7 @@
      <!-- Carrossel (carousel)-->
      <section class="carousel">
         <h2 class="carousel__title">Mais Vendidos</h2>
-        <!-- Layout HTML do Swiper (Swiper HTML Layout)-->
+        <!-- Layout HTML do Swiper (Swiper HTML Layout) -->
          <!-- Slider main container -->
         <div class="swiper">
              <!-- If we need pagination -->
@@ -116,7 +116,7 @@
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
 
-        <!-- Cartão de Recomendação (Recommendation Card)-->
+        <!-- Cartão de Recomendação (Recommendation Card) -->
         <div class="card">
             <div class="card__text">
                 <img src="./images/Estrelinhas.svg">
@@ -130,14 +130,35 @@
             </div>
             <div class="card__image">
                 <img src="./images/Escritora.svg" alt="Escritora Juliana Agarikov">
-                <a class="card__image-link" href="#">Saiba mais</a>
+                <a class="button" href="#">Saiba mais</a>
             </div>
         </div>        
     </section>
 
+    <!-- Tópicos (Topics) -->
+    <section class="topics">
+        <h2 class="topics__title">Tópicos visitados recentemente</h2>
+        <ul class="topics__list">
+            <li class="topics__list-item"><a href="#" class="topics__list-itemLink button">Android</a></li>
+            <li class="topics__list-item"><a href="#" class="topics__list-itemLink button">Marketing Digital</a></li>
+            <li class="topics__list-item"><a href="#" class="topics__list-itemLink button">Agile</a></li>
+            <li class="topics__list-item"><a href="#" class="topics__list-itemLink button">Startups</a></li>
+            <li class="topics__list-item"><a href="#" class="topics__list-itemLink button">HTML & CSS</a></li>
+            <li class="topics__list-item"><a href="#" class="topics__list-itemLink button">Python</a></li>
+            <li class="topics__list-item"><a href="#" class="topics__list-itemLink button">OO</a></li>
+            <li class="topics__list-item"><a href="#" class="topics__list-itemLink button">Java</a></li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2 class="contact__title">Fique por dentro das novidades!</h2>
+        <p class="contact__text">Atualização de e-books, novos livros, promoções e outros.</p>
+        <input  class="contact__email" type="email" placeholder="Cadastre seu e-mail">
+    </section>
+
     <footer></footer>
     
-    <!-- Script do Carrossel (Carousel Script)-->
+    <!-- Script do Carrossel (Carousel Script) -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', 

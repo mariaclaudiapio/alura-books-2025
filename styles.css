@@ -1,6 +1,8 @@
 @import url("styles/header.css");
 @import url("styles/banner.css");
 @import url("styles/carousel.css");
+@import url(styles/topics.css);
+
 
 /* reset */
 *
@@ -25,9 +27,18 @@
 
 body 
 {
-    background-color: var(--primary-background);
+    background-color: var(--secondary-background);
     font-family: var(--font-family);
     
+}
+
+.button
+{
+    background-color: var(--accent-color);
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+    color: var(--secondary-background);
 }
 
 

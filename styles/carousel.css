@@ -1,3 +1,7 @@
+.carousel
+{
+    background-color: var(--primary-background);
+}
 .carousel__title
 {
     background-color: var(--secondary-background);
@@ -75,11 +79,3 @@
     justify-content: space-between;
 }
 
-.card__image-link
-{
-    background-color: var(--accent-color);
-    padding: 1em;
-    text-align: center;
-    font-weight: bold;
-    color: var(--secondary-background);
-}
