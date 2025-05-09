@@ -1,0 +1,47 @@
+.contact
+{
+    background-color: var(--secondary-background);
+    padding: 1em 2em;
+}
+
+.contact__title,
+.contact__text
+{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contact__title
+{
+    font-size: 18px;
+    font-weight: medium;
+}
+
+.contact__text
+{   
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+.contact__email
+{
+    padding: 1em;
+    border: 1px solid var(--title-color);
+    border-radius: 24px;
+    width: 90%;
+    color: var(--title-color);
+    
+}
+
+.contact__email::placeholder
+{
+    font-family: var(--font-family);
+    color: var(--title-color);
+    background: url("../images/Email.svg");
+    background-repeat: no-repeat;
+    background-position: 0.2em;
+    padding-left: 2em;
+    font-size: 16px;
+}
